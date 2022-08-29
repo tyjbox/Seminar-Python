@@ -91,3 +91,7 @@ def get_polynom(param_1: int):
 
 polynom_1 = get_polynom(deg_of_polynom)
 print(f'Многочлен степени {deg_of_polynom}: {polynom_1}')
+data = open('file_task_4.txt', 'w')
+data.write(polynom_1)
+data.close()
+
